@@ -1234,3 +1234,43 @@ h1.entry-title {
   .type-product .product-title-price a {
     text-decoration: none;
     color: black; }
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about-wrap {
+  padding-top: 2.5rem;
+  margin: 0 auto;
+  width: 800px; }
+  .about-wrap h2 {
+    text-align: center; }
+
+.page-id-128 .site-content {
+  width: 100vw; }
+
+.page-id-128 .content-area {
+  display: block;
+  width: 1120px;
+  margin: 0 auto; }
+
+.page-id-128 h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  font-size: 3rem; }
+
+.about-text {
+  max-width: 800px;
+  margin: 5% auto; }
+
+.about-hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  width: 100vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
