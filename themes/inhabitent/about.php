@@ -4,7 +4,7 @@
       <h1><?php the_title(); ?></h1>
     </section>
 <div id="primary" class="content-area">
-  <main id="main" class="site-main">
+  <main id="main" class="about-main">
    
     <section class="about-text">
       <h2>Our Story</h2>

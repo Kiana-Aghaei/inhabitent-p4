@@ -8,13 +8,10 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:
-
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-
 RED Starter Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
-
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
@@ -43,9 +40,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-/*Structure */
-/* Typography */
-/* Colors */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -439,11 +433,11 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: #248A83; }
+  color: royalblue; }
   a:visited {
-    color: #248A83; }
+    color: purple; }
   a:hover, a:focus, a:active {
-    color: #2f1339; }
+    color: midnightblue; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -946,8 +940,7 @@ h1.entry-title {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background-color: #19625d;
-  margin-left: 10rem; }
+  background-color: #19625d; }
   .more-adventures-button:hover {
     background-color: #144e4a;
     color: white; }
@@ -1238,85 +1231,3 @@ h1.entry-title {
   .type-product .product-title-price a {
     text-decoration: none;
     color: black; }
-
-.about-hero {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  height: 100vh;
-  width: 100vw;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-
-h1 {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  color: white;
-  font-size: 3rem; }
-
-.site-content {
-  width: 100vw; }
-
-.content-area {
-  display: block;
-  width: 1120px;
-  margin-left: 3rem; }
-  .content-area h2 {
-    text-align: center; }
-
-.about-text {
-  max-width: 800px;
-  margin: 3rem auto;
-  margin-left: 10rem; }
-
-.site-header {
-  top: 0;
-  width: 100%;
-  border-bottom: 1px solid lightgrey;
-  position: fixed;
-  z-index: 999;
-  background-color: rgba(255, 255, 255, 0.6); }
-
-.main-navigation {
-  padding: 1.55em 0;
-  margin: 0 auto;
-  height: 30px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center; }
-  .main-navigation a {
-    margin-bottom: 0.5rem; }
-  .main-navigation img {
-    margin-top: 1.5rem; }
-
-.just-nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: end;
-      align-items: flex-end; }
-
-.logged-in .site-header {
-  top: 32px; }
-
-.header-search fieldset {
-  border: none;
-  margin-top: 7px; }
-  .header-search fieldset .icon-search {
-    display: inline; }
-  .header-search fieldset button {
-    visibility: hidden; }
-  .header-search fieldset .fa {
-    font-size: 1rem;
-    color: #248A83; }
-  .header-search fieldset input[type="search"] {
-    border: none;
-    width: 0px;
-    padding: 0;
-    text-transform: uppercase;
-    font-size: 1rem; }
-    .header-search fieldset input[type="search"]:focus {
-      outline: none; }

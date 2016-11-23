@@ -15,3 +15,37 @@
 .widget_search .search-submit {
 	display: none;
 }
+
+/* Business hours widget */
+
+.day-of-week {
+	font-weight: bold;
+}
+
+/* Inhabitent Contact widget */
+
+.inhabitent-contact-widget-class {
+.fa {
+	padding-right: 0.5rem;
+}
+
+a {
+	text-transform: none; 
+	font-family: $main-font-family;
+}
+
+p {
+	display: flex;
+}
+}
+
+/* Archive Widget */
+.widget_archive ul {
+	display: flex;
+    flex-direction: column;
+
+	li a{
+	text-transform: capitalize;
+	font-family: $main-font-family;
+	}
+}
