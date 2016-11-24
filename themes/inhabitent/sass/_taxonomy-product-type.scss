@@ -27,20 +27,25 @@
 			}
 			.product-info {
 				padding: .75rem 1rem;
+				display: flex;
 				.entry-title{
 					font: 1rem $accent-font-family;
+					 justify-content: space-around;
+    				padding: 0 1rem;
 					}
 
-					h3::before {
-						margin: 0;
-                    float: left;
-                    width: 0;
-                    white-space: nowrap;
-                    content: "............................................";
+					h3 {
+						justify-content: flex-start;
+
+
+					
                 }
 				span{
-					float:right;
+					 justify-content: flex-end;
 					font: 0.9rem $accent-font-family;
+					position: absolute;
+					padding-left: 11rem;
+					padding-top: 1rem;
 				}
 				}
 			}
