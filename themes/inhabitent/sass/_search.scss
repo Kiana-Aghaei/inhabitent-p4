@@ -1,0 +1,49 @@
+.search-results {
+    .content-area .site-main {
+    margin-top: 4.6%;
+    }
+
+    .entry-summary {
+	 @include brand-button;
+    }
+
+    .entry-meta {
+    visibility: hidden;
+    }
+}
+
+.search-pagination {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    span {
+        background-color: $brand-lightgrey;
+		border-radius: 0px;
+		padding: 0.5rem 0.7rem;
+		color: white;
+		font-size: 0.9rem;
+		text-transform: uppercase;
+		text-align: center;
+		box-shadow: none;
+		text-shadow: none;
+		cursor: pointer
+    }
+    a {
+        background-color: $brand-green;
+		border-radius: 0px;
+		padding: 0.5rem 0.7rem;
+		color: white;
+		font-size: 0.9rem;
+		text-transform: uppercase;
+		text-align: center;
+		box-shadow: none;
+		text-shadow: none;
+		cursor: pointer;
+            &:visited {
+                color: white;
+            }
+    }
+
+}
+
+

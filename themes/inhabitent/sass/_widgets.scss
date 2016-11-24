@@ -1,51 +1,36 @@
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
 
-.widget {
-	margin: 0 0 $base__space-unit;
-
-	/* Make sure select elements fit in widgets. */
-	select {
-		max-width: 100%;
-	}
-}
-
-/* Search widget. */
-.widget_search .search-submit {
-	display: none;
-}
-
-/* Business hours widget */
-
-.day-of-week {
-	font-weight: bold;
-}
-
-/* Inhabitent Contact widget */
-
-.inhabitent-contact-widget-class {
-.fa {
-	padding-right: 0.5rem;
-}
-
-a {
-	text-transform: none; 
-	font-family: $main-font-family;
-}
-
-p {
+.widget-title{
 	display: flex;
+	align-content: flex-start;
+	text-align: left;
 }
-}
+.widget-area {
+		/*padding: 10% 13px 0 0;*/
+		/*margin-left: 80px;*/
+		flex: 26% 0 0;
 
-/* Archive Widget */
-.widget_archive ul {
-	display: flex;
-    flex-direction: column;
+		h2 {
+			font: 1.5rem sans-serif;
+			color: #2f1339;
+			line-height: 2rem;
+			text-align: left;
 
-	li a{
-	text-transform: capitalize;
-	font-family: $main-font-family;
+		}
+		a {
+			color: #248A83;
+			line-height: 28px;
+		}
+		i {
+			margin-right: 5px;
+		}
+		p {
+			font: 1rem serif;
+		}
+		span {
+			font: 1rem serif;
+		}
+		li {
+			list-style-type: none;
+		}
 	}
-}
+	

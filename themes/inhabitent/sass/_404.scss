@@ -1,0 +1,18 @@
+/* 404 style */
+
+.error404 {
+    .site-main {
+        margin-top: 50px;
+    }
+    .page-content{
+        li {
+            float: none;
+           a { 
+            display: inline;
+           }
+        }
+    }
+    .widget ul {
+        list-style: none;
+    }
+}

@@ -23,7 +23,7 @@ get_header(); ?>
 
 
 				<?php get_template_part( 'template-parts/content' ); ?>
-				 <p><a class = "read-more-article" href ="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+				 
 
 
 			<?php endwhile; ?>

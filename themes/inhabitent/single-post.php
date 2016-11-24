@@ -4,7 +4,6 @@
  *
  * @package RED_Starter_Theme
  */
-
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -14,16 +13,20 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			<div class = "social-media-button">
-			<a class = "like-button" href ="#"><i class="fa fa-facebook" aria-hidden="true"></i>
-			Like</a>
-			<a class = "tweet-button" href ="#"><i class="fa fa-twitter" aria-hidden="true"></i>
-			Tweet</a>
-			<a class = "pin-button" href ="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a>
-			</div>
-
-
-			<?php the_post_navigation(); ?>
+			<!-- previous and next post navigation >-->
+			<!--<?php the_post_navigation(); ?>-->
+			
+			<div class = "social-buttons">
+				<a href = "#" class = "social-btn">
+					<i class="fa fa-facebook" aria-hidden="true"> like </i>
+				</a> 
+				<a href = "#" class = "social-btn">
+					<i class="fa fa-twitter" aria-hidden="true"> tweet </i>
+				</a> 
+				<a href = "#" class = "social-btn">
+					<i class="fa fa-pinterest" aria-hidden="true"> pin </i>
+				</a> 
+			</div> <!--social buttons -->
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
