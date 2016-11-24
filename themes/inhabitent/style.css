@@ -1391,3 +1391,64 @@ h1 {
 
 .error404 .widget ul {
   list-style: none; }
+
+.content-area {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
+  .content-area .page-title {
+    font: 2rem "merriweather", serif;
+    line-height: 3em; }
+
+.boxes {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.product-post {
+  border: 1px solid #e1e1e1;
+  width: 23%;
+  margin-bottom: 1.5rem; }
+  .product-post .product-thumbnail {
+    background: #e1e1e1; }
+    .product-post .product-thumbnail img {
+      height: 250px;
+      width: auto;
+      background-size: cover; }
+  .product-post .product-info {
+    padding: .75rem 1rem; }
+    .product-post .product-info .entry-title {
+      font: 1rem "novecento", sans; }
+    .product-post .product-info h3::before {
+      margin: 0;
+      float: left;
+      width: 0;
+      white-space: nowrap;
+      content: "............................................"; }
+    .product-post .product-info span {
+      float: right;
+      font: 0.9rem "novecento", sans; }
+
+.boxes-archive {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.single-post .site-content {
+  display: -ms-flexbox;
+  display: flex; }
+
+.single-post .site-mains {
+  width: 100%; }
+
+.tax-product_type .page-header, .post-type-archive .page-header {
+  border-bottom: 1px dashed #666;
+  margin-bottom: 3rem;
+  text-align: center;
+  font: 1rem "novecento", sans;
+  line-height: 1.75em; }
