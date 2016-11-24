@@ -588,34 +588,67 @@ a {
   content: "";
   display: table; }
 
-.widget-title {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  text-align: left; }
-
 .widget-area {
-  /*padding: 10% 13px 0 0;*/
-  /*margin-left: 80px;*/
+  padding: 10% 13px 0 0;
+  margin-left: 80px;
   -ms-flex: 26% 0 0;
       flex: 26% 0 0; }
   .widget-area h2 {
-    font: 1.5rem sans-serif;
+    font: 1.5rem "merriweather", serif;
     color: #2f1339;
-    line-height: 2rem;
-    text-align: left; }
+    line-height: 1.875rem; }
   .widget-area a {
     color: #248A83;
     line-height: 28px; }
   .widget-area i {
     margin-right: 5px; }
   .widget-area p {
-    font: 1rem serif; }
+    font: 1rem "novecento", sans; }
   .widget-area span {
-    font: 1rem serif; }
+    font: 1rem "novecento", sans; }
   .widget-area li {
     list-style-type: none; }
+  .widget-area .textwidget p {
+    display: -ms-flexbox;
+    display: flex; }
+
+.blog .content-area-journal-posts, .single-format-standard .content-area-journal-posts {
+  width: 70%;
+  margin-left: 102px;
+  margin-right: 29px;
+  width: 1120px; }
+  .blog .content-area-journal-posts .entry-header, .single-format-standard .content-area-journal-posts .entry-header {
+    position: relative; }
+    .blog .content-area-journal-posts .entry-header .entry-title, .single-format-standard .content-area-journal-posts .entry-header .entry-title {
+      font-size: 2.063rem;
+      line-height: 2.625rem;
+      letter-spacing: 0.125rem;
+      padding: 1rem;
+      position: absolute;
+      margin-top: 48px;
+      max-width: 80%;
+      top: 0;
+      background-color: #248A83;
+      color: #f1f1f1; }
+    .blog .content-area-journal-posts .entry-header img, .single-format-standard .content-area-journal-posts .entry-header img {
+      width: 1000px;
+      height: auto; }
+    .blog .content-area-journal-posts .entry-header a, .single-format-standard .content-area-journal-posts .entry-header a {
+      color: #f1f1f1;
+      text-decoration: none; }
+  .blog .content-area-journal-posts .entry-meta, .single-format-standard .content-area-journal-posts .entry-meta {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 7px;
+    margin-bottom: 7px;
+    background-color: #248A83;
+    color: #f1f1f1; }
+  .blog .content-area-journal-posts .page-links, .single-format-standard .content-area-journal-posts .page-links {
+    clear: both;
+    margin: 0 0 1.5em; }
 
 /*--------------------------------------------------------------
 # Content
