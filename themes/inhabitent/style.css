@@ -844,9 +844,10 @@ object {
       justify-content: space-between;
   text-align: center;
   height: 280px; }
+  .product_type_blocks .button {
+    color: white; }
   .product_type_blocks :hover {
-    border-color: #d99054;
-    text-color: white; }
+    border-color: #d99054; }
     .product_type_blocks :hover a {
       text-decoration: none;
       color: white; }

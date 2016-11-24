@@ -12,9 +12,13 @@
 	justify-content: space-between;
 	text-align: center;
 	height: 280px;
+    .button  { 
+        color: white;
+
+    }
+
 	:hover{
 		border-color: #d99054;
-		text-color: white;
 		a{
 			text-decoration: none;
 			color: white;
