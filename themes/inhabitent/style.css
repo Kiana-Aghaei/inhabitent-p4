@@ -1326,6 +1326,13 @@ h1 {
     .search-pagination a:visited {
       color: white; }
 
+.search .page-header h1 {
+  color: black; }
+
+.search h2 {
+  text-align: left;
+  text-decoration: none; }
+
 /* 404 style */
 .error404 .site-main {
   margin-top: 50px; }
@@ -1398,7 +1405,8 @@ h1 {
 .single-post .site-mains {
   width: 100%; }
 
-.tax-product_type .page-header, .post-type-archive .page-header {
+.tax-product_type .page-header,
+.post-type-archive .page-header {
   border-bottom: 1px dashed #666;
   margin-bottom: 3rem;
   text-align: center;
